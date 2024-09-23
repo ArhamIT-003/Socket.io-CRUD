@@ -1,0 +1,13 @@
+.input-container {
+  margin: 0 10px;
+}
+
+.input {
+  width: 250px;
+  height: 60px;
+  border: 1px solid #f43;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+}

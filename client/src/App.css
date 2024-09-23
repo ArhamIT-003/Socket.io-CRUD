@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.btn {
+  padding: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: chocolate;
+  color: white;
+  border: none;
+  max-width: fit-content;
+}
+
+.output-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: bisque;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 30px 0px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.output-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
